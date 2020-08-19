@@ -1,0 +1,44 @@
+{
+  "users": {
+    "userId1": {
+      "name": "Jinx Kitt",
+      "username": "jinx114",
+      "email": "jinx@me.com",
+      "password": "11111111",
+      "online": false
+    },
+    "userId2": {
+      "name": "Mark Collins",
+      "username": "mark114",
+      "email": "mark@me.com",
+      "password": "11111111",
+      "online": false
+    }
+  },
+  "chats": {
+    "userId1": {
+      "userId2": {
+        "messageId1": {
+          "from": "them",
+          "text": "How are you?"
+        },
+        "messageId2": {
+          "from": "me",
+          "text": "Hello, I'm fine."
+        }
+      }
+    },
+    "userId2": {
+      "userId1": {
+        "messageId1": {
+          "from": "me",
+          "text": "How are you?"
+        },
+        "messageId2": {
+          "from": "them",
+          "text": "Hello, I'm fine."
+        }
+      }
+    }
+  }
+}
